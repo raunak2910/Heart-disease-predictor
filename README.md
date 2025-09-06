@@ -51,28 +51,44 @@ Deployment: Streamlit frontend allows real-time predictions.
 🎯 Features
 
 ✅ Predicts heart disease risk based on patient data
+
 ✅ Multiple ML models compared for performance
+
+
 ✅ Scalable and modular codebase
+
 ✅ Simple and interactive Streamlit UI
 
+
 📂 Project Structure
+
 📦 heart-disease-prediction
+
  ┣ 📜 app.py                 # Streamlit frontend
+ 
  ┣ 📜 LogisticRegression_heart.pkl   # Saved ML model
+ 
  ┣ 📜 scaler.pkl             # StandardScaler object
+ 
  ┣ 📜 columns.pkl            # Feature columns used
+ 
  ┣ 📜 heart.csv              # Dataset
+ 
  ┣ 📜 requirements.txt       # Dependencies
+ 
  ┗ 📜 README.md              # Project documentation
+
 
 🌍 Deployment
 
 This app can be deployed on:
 
 Streamlit Cloud
- (Recommended 🚀)
+
+(Recommended 🚀)
 
 Render / Heroku / Vercel (alternative options)
 
 ✨ Author: Raunak Gupta
+
 🔗 GitHub: @raunak2910
